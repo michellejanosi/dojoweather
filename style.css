@@ -5,12 +5,13 @@
 }
 
 body {
-  background-color: red;
+  /* background-color: red; */
   font-family: 'Varela Round', sans-serif;
   width: 100vw;
   height: 100vh;
 }
 
+/* Top Navbar*/
 .navbar {
   background-color: #9FC5F8;
   color: #fff;
@@ -23,7 +24,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding-right: 40px;
+  padding-right: 20px;
   width: 75%;
 }
 
@@ -42,4 +43,38 @@ body {
 
 h1 {
   font-size: 3rem;
+}
+
+/*Main content top*/
+.container {
+  /* background-color: yellow; */
+  margin: 0 auto;
+  padding: 20px;
+  width: 75%;
+}
+
+.main-top {
+  border-bottom: 3px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.main-temp-content {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.main-temp-content p {
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+#temp-scales {
+  font-family: inherit;
+  font-size: 1.25rem;
 }
