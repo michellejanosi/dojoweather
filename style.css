@@ -11,6 +11,10 @@ body {
   height: 100vh;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 /* Top Navbar*/
 .navbar {
   background-color: #9FC5F8;
@@ -57,6 +61,7 @@ h1 {
   border-bottom: 3px solid #000;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
   padding: 20px 0;
 }
 
@@ -70,11 +75,57 @@ h2 {
 }
 
 .main-temp-content p {
-  font-size: 1.1rem;
   margin-right: 10px;
 }
 
 #temp-scales {
   font-family: inherit;
   font-size: 1.25rem;
+}
+
+/* Weather section*/
+.weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.daily-weather {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 50vh;
+  width: 15vw;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.weather-icon {
+  border-radius: 50%;
+  max-width: 80%;
+  width: 100%;
+}
+
+.temperature {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+}
+
+.temperature p {
+  font-size: 1.5rem;
+}
+
+.high-temp,
+.high {
+  color: #CF2A27;
+}
+
+.low-temp,
+.low {
+  color: #2B78E4;
 }
