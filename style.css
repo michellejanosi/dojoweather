@@ -176,4 +176,62 @@ h4 {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* TO DO: responsive design (mobile-first responsive design */
+.hidden {
+  display: none;
+}
+
+/* Responsive */
+/* Your existing CSS rules here... */
+
+@media only screen and (max-width: 600px) {
+  .nav-content {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .main-top,
+  .weather {
+    flex-direction: column;
+  }
+
+  .main-temp-content {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .weather-icon {
+    width: 40%;
+  }
+
+  .daily-weather {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .temperature {
+    justify-content: center;
+  }
+
+  .cookie-container {
+    flex-direction: column;
+    text-align: center;
+    width: 91%;
+  }
+
+  .cookie-text {
+    width: 100%;
+  }
+
+  .btn {
+    margin-top: 10px;
+    width: 50%;
+  }
+}
