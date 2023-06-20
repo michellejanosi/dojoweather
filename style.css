@@ -181,8 +181,6 @@ h4 {
 }
 
 /* Responsive */
-/* Your existing CSS rules here... */
-
 @media only screen and (max-width: 600px) {
   .nav-content {
     flex-direction: column;
